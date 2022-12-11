@@ -1,0 +1,41 @@
+/* @import 'bootstrap/dist/css/bootstrap.min.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@500;600;800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header-font {
+  font-family: 'Lora', serif;
+}
+.regular-font {
+  font-family: 'Poppins', sans-serif;
+}
+
+.vh-50 {
+  height: 50vh;
+}
+
+.vh-85 {
+  height: 85vh;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.spinner-custom {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+/* Home Banner */
+
+.home-banner {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: linear-gradient(#a8a6a7, #abd2db),
+    url('https://images.unsplash.com/photo-1515767160065-1733c5eb680f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80');
+  background-blend-mode: multiply;
+}
